@@ -16,6 +16,7 @@
 package com.example.android.datafrominternet.utilities;
 
 import android.net.Uri;
+import android.util.Log;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -74,6 +75,9 @@ public class NetworkUtils {
         HttpURLConnection urlConnection = (HttpURLConnection) url.openConnection();
         try {
             InputStream in = urlConnection.getInputStream();
+            Log.i("MainActivity","****");
+
+
 
             Scanner scanner = new Scanner(in);
             scanner.useDelimiter("\\A");
