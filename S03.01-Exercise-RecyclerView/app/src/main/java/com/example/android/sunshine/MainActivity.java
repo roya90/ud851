@@ -15,13 +15,18 @@
  */
 package com.example.android.sunshine;
 
+import android.content.Context;
 import android.os.AsyncTask;
 import android.os.Bundle;
+import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.RecyclerView;
+import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
@@ -62,6 +67,7 @@ public class MainActivity extends AppCompatActivity {
 
     // Within ForecastAdapterViewHolder ///////////////////////////////////////////////////////////
     // TODO (18) Create a public final TextView variable called mWeatherTextView
+
 
     // TODO (19) Create a constructor for this class that accepts a View as a parameter
     // TODO (20) Call super(view) within the constructor for ForecastAdapterViewHolder
