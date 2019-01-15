@@ -26,8 +26,16 @@
           <option name="url" value="https://github.com/tensorflow/tensorflow" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/udacity/ud839_Miwok/tree/Starter-code" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/udacity/ud839_Miwok.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="$USER_HOME$/Documents/school/programming" />
+    <option name="cloneParentDir" value="$USER_HOME$/Documents/school/programming/Android/Android basic/ud839" />
   </component>
 </application>
