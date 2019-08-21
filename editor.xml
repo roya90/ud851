@@ -3,4 +3,14 @@
     <option name="USE_SOFT_WRAPS" value="MAIN_EDITOR:CONSOLE" />
     <option name="USE_CUSTOM_SOFT_WRAP_INDENT" value="true" />
   </component>
+  <component name="TodoConfiguration">
+    <multiLine>false</multiLine>
+    <pattern pattern="\btodo\b.*" />
+    <pattern pattern="\bfixme\b.*" />
+    <pattern useCustomColors="true" case-sensitive="true" pattern="\bdone\b.*">
+      <option name="FOREGROUND" value="dbf08" />
+      <option name="FONT_TYPE" value="3" />
+      <option name="ERROR_STRIPE_COLOR" value="96e3a2" />
+    </pattern>
+  </component>
 </application>
