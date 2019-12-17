@@ -7,7 +7,7 @@
     <multiLine>false</multiLine>
     <pattern pattern="\btodo\b.*" />
     <pattern pattern="\bfixme\b.*" />
-    <pattern useCustomColors="true" case-sensitive="true" pattern="\bdone\b.*">
+    <pattern useCustomColors="true" case-sensitive="true" pattern="\bDONE\b.*">
       <option name="FOREGROUND" value="dbf08" />
       <option name="FONT_TYPE" value="3" />
       <option name="ERROR_STRIPE_COLOR" value="96e3a2" />
